@@ -1,0 +1,9 @@
+{:runtime {:name "dev"
+           :db {:dbtype "mysql"
+                :host "localhost"
+                :port 3306
+                :user "user"
+                :password "password"
+                :dbname "test_user"}
+           :redis {:host "localhost"
+                   :port 6379}}}
